@@ -4,9 +4,9 @@ Se han añadido diferentes dependencias tanto del repositorio de maven (https://
 
 La hemos añadido mediante la incorparación de las etiquetas ```<dependeny>``` en pom.xml y la ejecución de los comandos:
 
-```mvn compile``` para compilar y descargas las dependencias necesarias rederenciadas en el pom.xml
+- ```mvn compile``` para compilar y descargas las dependencias necesarias rederenciadas en el pom.xml
 
-```mvn clean package``` para borrar el directorio target y realizar automaticamente el **mvn package** para empaquetar el proyecto en: **proy1-1.0-SNAPSHOT.jar**
+- ```mvn clean package``` para borrar el directorio target y realizar automaticamente el "mvn package" para empaquetar el proyecto en: "proy1-1.0-SNAPSHOT.jar"
 
 ### Dependencias
 
