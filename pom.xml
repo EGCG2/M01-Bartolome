@@ -32,8 +32,15 @@
     <artifactId>spring-orm</artifactId>
     <version>4.3.5.RELEASE</version>
    </dependency>
-
-  </dependencies>
+<!-- Dependencia externa -->
+   <dependency>
+         <groupId>ldapjdk</groupId>
+         <artifactId>ldapjdk</artifactId>
+         <scope>system</scope>
+         <version>1.0</version>
+         <systemPath>${basedir}/src/lib/ldapjdk_4.1.jar</systemPath>
+      </dependency>
+  </dependencies>	
 
 
   <build>
